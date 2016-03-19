@@ -1,10 +1,10 @@
 package com.parksystem.model;
 
-public class Car extends Vehicle {
-	public Car() {		
-    	spotsNeeded = 1;
+public class Bus extends Vehicle {
+	public Bus() {		
+    	spotsNeeded = 5;
     	
-		size = VehicleSize.Compact;
+		size = VehicleSize.Large;
 	}
 
 	
@@ -13,6 +13,7 @@ public class Car extends Vehicle {
 	}
 	
 	public void print() {
-		System.out.print("Car");
+		System.out.print("Bus");
 	}	
 }
+
